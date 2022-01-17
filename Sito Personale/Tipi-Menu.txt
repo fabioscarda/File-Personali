@@ -1,0 +1,16 @@
+Menu
+
+link con tutti i menu
+https://www.w3schools.com/howto/howto_css_icon_bar.asp
+
+link di menu utili
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_menu_icon_js
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push
+https://www.w3schools.com/howto/howto_css_sidenav_buttons.asp
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_bottom_nav
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_navbar_border
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav_centered
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav_equal_width
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar
