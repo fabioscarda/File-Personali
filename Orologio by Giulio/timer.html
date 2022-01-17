@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>Orologio by Giulio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<div id="selettori">
+    <a href="clock.html">
+        <div class="selector">CLOCK</div>
+    </a>
+    <a href="stopwatch.html">
+        <div class="selector">STOPWATCH</div>
+    </a>
+    <a href="timer.html">
+        <div class="selector" id="corrente">TIMER</div>
+    </a>
+</div>
+<div id="caselletimer">
+    <div class="timer"></div>
+    <div class="timer"></div>:
+    <div class="timer"></div>
+    <div class="timer"></div>:
+    <div class="timer"></div>
+    <div class="timer"></div>
+</div>
+
+<div id="mediaplayer">
+    <div onclick="starttimer()"><img src="play.png"></div>
+    <div onclick="resettimer()"><img src="restart.png"></div>
+</div>
+
+<div id="timerpredefiniti">
+    <div class="predefinito" onclick="impostatimer(0, 0, 10)">
+        <p>10</p>
+        <p>seconds</p>
+    </div>
+    <div class="predefinito" onclick="impostatimer(0, 1, 0)">
+        <p>1</p>
+        <p>minutes</p>
+    </div>
+    <div class="predefinito" onclick="impostatimer(0, 5, 0)">
+        <p>5</p>
+        <p>minutes</p>
+    </div>
+    <div class="predefinito" onclick="impostatimer(0, 30, 0)">
+        <p>30</p>
+        <p>minutes</p>
+    </div>
+    <div class="predefinito" onclick="impostatimer(1, 0, 0)">
+        <p>1</p>
+        <p>hour</p>
+    </div>
+</div>
+</body>
+
+</html>
