@@ -1,0 +1,63 @@
+Gioco con login system
+
+login system
+https://www.youtube.com/watch?v=p1EjXFzTTtA
+&list=PLP5MAKLy8lP-N9xzZ6485EBWEsGj1EJ5h&index=16
+
+gioco
+- usare il canvas per fare il gioco. difianco al canvas 
+mettere commenti e altre cose come il login e register
+- programmazione ad oggetti. sia in js per il gioco sia 
+per il login system come nel video
+- fare prima il gioco poi il login system
+- pubblicarlo subito quando il gioco è finito e mettere 
+le scritte che verra aggiornato e che si potranno salvare le
+partite e creare gli utenti.
+dopo fare il login system e finire il sito con anche la zona 
+con i commenti 
+- pian piano aggiungere anche altri giochi se va tutto bene
+
+in basso mettere il personaggio da guidare.
+- questo personaggio si muove solo in orizzontale
+- si muove con i tasti wasd
+- ogni click del mouse spara
+- il personaggio ha una vita. la vita è di 10 hp 
+
+nemici
+- decidere se i nemici scendono dall'alto verso il basso
+o in orizzontale
+- decidere se fare che i nemici ti sparano
+- POSSIBILITà: fare che i nemici si muovono in verticale
+e quando arriva al muro laterale torna indietro.
+oppure cambiano direzione con un timer random: una volta dopo 
+5 sec un'altra volta dopo 3 sec
+- fare che muoiono quando vengono colpiti
+- fare che andando avanti nel gioco scendono più velocemente
+- i nemici possono sparare. capire come farli sparare
+dopo quanto sparano
+- mettere una velocità al nemico che poi aumenterà
+- mettere anche dei nemici che muoiono con più di un colpo
+
+come programmare 
+- usare la programmazione ad oggetti.
+- creare delle classi:
+classe base personaggi che sarà ereditata dalle 
+classi nemico e protagonista
+- usare una lista di oggetti della classe nemico.
+per sapere che nemico ha ucciso controllare le coordinate 
+del proiettile con quelle di tutt i nemici
+
+
+- la vita del personaggio principale è di 10 hp 
+- la vita dei nemici varia in base a che punto è arrivato 
+l'utente. più l'utente va avanti nel gioco più i nemici 
+avranno più vita e faranno più danno. il danno è pari alla vita
+
+
+aggiornamenti da fare più avanti a gioco finito
+- fare dei livelli con i boss
+- fare che durante il gioco si può prendere degli aiuti che 
+ti aumentano il danno per esempio o la vita. questi aiuti 
+possono arrivare dopo un po di tempo per esempio dopo 30 
+secondi. questi aiuti aumentano una caratteristica per 
+tutta la partita. fare un menu che può scegliere l'aiuto

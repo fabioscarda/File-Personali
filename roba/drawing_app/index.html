@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing App</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <canvas id="canvas"> il tuo browser non supporta questo tag</canvas>
+        <div class="tools">
+            <button type="button" class="button">indietro</button>
+            <!--mettere l'icona con la freccia che fa indietro-->
+            <button type="button" class="button">Pulisci</button>
+
+            <div class="color-field" style="background: red;" onclick="changeColor(this)"></div>
+            <div class="color-field" style="background: blue;" onclick="changeColor(this)"></div>
+            <div class="color-field" style="background: green;" onclick="changeColor(this)"></div>
+            <div class="color-field" style="background: yellow;" onclick="changeColor(this)"></div>
+            <div class="color-field" style="background: black;" onclick="changeColor(this)"></div>
+
+            <input type="color" class="color-selector">
+            <input type="range" class="range-selector" min="1" max="100">
+
+        </div>
+        <br>
+        <button type="button" class="button" onclick="download()">
+            <a id="img" href="" style="text-decoration: none; color: black;">download</a>
+        </button>
+    </div>
+</body>
+<script src="app.js"></script>
+<script src="download.js"></script>
+
+</html>

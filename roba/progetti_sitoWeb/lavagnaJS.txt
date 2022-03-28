@@ -1,0 +1,3 @@
+creare una lavagna dove si può disegnare.
+inserire un bottone dove ti scarica la foto .png o .jpg
+con il disegno
