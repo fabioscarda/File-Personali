@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing App</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="menu">
+            <div>crea nuovo progetto</div>
+            <div>carica progetto esistente</div>
+            <br>
+            <!--crea nuovo progetto-->
+            <!--creare la griglia a quadretti. far scegliere la grandezza dei quadretti-->
+            <!--far scegliere se vuole un foglio vuoto o a quadretti/righe-->
+            <!--far scegliere la grandezza del canvas che potrà comunque cambiare nel mentre che disegna-->
+            <!--mettere altre impostazioni che può scegliere l'utente-->
+
+            <!--carica progetto esistente-->
+            <!--creare la zona dove caricare il file -->
+
+        </div>
+        <div class="lavagna">
+            <div class="menu-lavagna">
+
+            </div>
+            <canvas id="canvas"> il tuo browser non supporta questo tag</canvas>
+            <div class="tools">
+                <button id="backButton" type="button" class="button" onclick="back()"><i class="material-icons">undo</i></button>
+                <button id="nextButton" type="button" class="button" onclick="next()"><i class="material-icons">redo</i></button>
+                <!--mettere l'icona con la freccia che fa indietro-->
+                <button id="clearButton" type="button" class="button" onclick="clearCanvas()"><i class="material-icons">delete</i></button>
+
+                <div id="red" class="color-field" style="background: red;" onclick="changeColor(this)"></div>
+                <div id="blue" class="color-field" style="background: blue;" onclick="changeColor(this)"></div>
+                <div id="green" class="color-field" style="background: green;" onclick="changeColor(this)"></div>
+                <div id="yellow" class="color-field" style="background: yellow;" onclick="changeColor(this)"></div>
+                <div id="black" class="color-field" style="background: black;" onclick="changeColor(this)"></div>
+
+                <input id="colorSelector" type="color" class="color-selector" onchange="colorSelector()">
+                <input id="rangeSelector" type="range" class="range-selector" min="1" max="100" value="5" onclick="rangeSelector()">
+
+                <button id="pen" class="button" onclick="pen()"><i class="material-icons">mode_edit</i></button>
+                <button id="highlighter" class="button" onclick="highlighter()"><i class="material-icons">brush</i></button>
+                <button id="bucket" class="button" onclick="bucket()"><i class="material-icons">format_color_fill</i></button>
+                <button id="eraser" class="button" onclick="eraser()"><i class="material-icons">eraser</i></button>
+
+            </div>
+            <br>
+            <div class="upload-download">
+                <button type="button" class="button" onclick="download()">
+                <a id="img" href="" style="text-decoration: none; color: black;"><i class="material-icons">get_app</i></a>
+                </button>
+                <input type="file" id="uploader" style="display:none;" />
+                <button class="button uploader" onclick="document.getElementById('uploader').click()"><i class="material-icons">
+                    upload
+                </i></button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+<script src="download.js"></script>
+
+</html>
