@@ -1,0 +1,33 @@
+.color-field {
+    height: 40px;
+    width: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    cursor: pointer;
+    display: inline-block;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 20%;
+    border: 2px solid white;
+    align-self: 0 15px;
+    margin: 0 0 0 0;
+}
+
+.box {}
+
+canvas {
+    border: 1px solid black;
+    margin-left: 60px;
+}
+
+.tools {
+    height: 100%;
+    width: 50px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-left: 10px;
+}
